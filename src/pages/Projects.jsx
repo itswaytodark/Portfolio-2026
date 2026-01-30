@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { Code2, Globe, Cpu, Layers, ExternalLink } from "lucide-react";
 
-import P1 from "../assets/P1.png";
+import P1 from "../assets/p1.png";
 import P2 from "../assets/p2.png";
 
 const Projects = () => {
