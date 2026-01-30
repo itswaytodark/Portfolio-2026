@@ -1,14 +1,18 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
+import controllerImg from "../assets/PlayStation-Remote.png";
+import monsterImg from "../assets/monster.png";
+
+
 const Home = () => {
   const constraintsRef = useRef(null);
 
   const items = [
-    { id: 1, type: 'controller', src: "/src/assets/PlayStation-Remote.png", pos: "top-10 left-10", size: "h-32" },
-    { id: 2, type: 'controller', src: "/src/assets/PlayStation-Remote.png", pos: "bottom-10 right-10", size: "h-32" },
-    { id: 3, type: 'monster', src: "/src/assets/monster.png", pos: "top-20 right-20", size: "h-40" },
-    { id: 4, type: 'monster', src: "/src/assets/monster.png", pos: "bottom-20 left-20", size: "h-40" },
+    { id: 1, type: 'controller', src: controllerImg, pos: "top-10 left-10", size: "h-32" },
+    { id: 2, type: 'controller', src: controllerImg, pos: "bottom-10 right-10", size: "h-32" },
+    { id: 3, type: 'monster', src: monsterImg, pos: "top-20 right-20", size: "h-40" },
+    { id: 4, type: 'monster', src: monsterImg, pos: "bottom-20 left-20", size: "h-40" },
   ];
 
   return (

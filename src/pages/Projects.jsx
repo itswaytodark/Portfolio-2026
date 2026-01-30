@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 
 import { Code2, Globe, Cpu, Layers, ExternalLink } from "lucide-react";
 
+import P1 from "../assets/P1.png";
+import P2 from "../assets/p2.png";
+
 const Projects = () => {
   const skills = [
     { name: "React", icon: <Cpu size={16} /> },
@@ -15,7 +18,7 @@ const Projects = () => {
       title: "EasyLearn",
       description: "A Blog platform for sharing Stories.",
       link: "https://yourproject1.com",
-      image: "/src/assets/p1.png",
+      image: P1,
       tags: ["React", "Node.js", "MongoDB"],
       color: "from-blue-600 to-cyan-500"
     },
@@ -23,7 +26,7 @@ const Projects = () => {
       title: "FoodMood",
       description: "An AI-powered food recommendation app that suggests dishes based on your mood.",
       link: "https://foodmood-xoik.vercel.app/",
-      image: "/src/assets/p2.png", 
+      image: P2, 
       tags: ["React", "AI"],
       color: "from-purple-600 to-pink-500"
     }
