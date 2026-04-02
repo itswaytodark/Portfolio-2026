@@ -148,7 +148,7 @@ const About = () => {
               {/* Stats row */}
               <div className="grid grid-cols-3 gap-4 pt-2">
                 <StatCard value="2nd" label="Year CS" delay={0.2} />
-                <StatCard value="12+" label="Projects" delay={0.3} />
+                <StatCard value="4+" label="Projects" delay={0.3} />
                 <StatCard value="∞" label="Coffee" delay={0.4} />
               </div>
 
