@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-import controllerImg from "../assets/PlayStation-Remote.png";
-import monsterImg from "../assets/monster.png";
+import controllerImg from "../assets/PlayStation-Remote.webp";
+import monsterImg from "../assets/monster.webp";
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div 
       ref={constraintsRef} 
-      className="relative min-h-screen w-full bg-slate-950 text-white overflow-hidden flex items-center justify-center"
+      className="relative min-h-screen w-full  text-white overflow-hidden flex items-center justify-center"
     >
       
   
