@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "EasyLearn",
       description: "A Blog platform for sharing Stories.",
-      link: "https://yourproject1.com",
+      link: "https://easy-learn-red.vercel.app",
       image: P1,
       tags: ["React", "Node.js", "MongoDB"],
       color: "from-blue-600 to-cyan-500"

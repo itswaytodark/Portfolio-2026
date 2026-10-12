@@ -131,23 +131,21 @@ const About = () => {
 
               <motion.div {...fadeUp(0.1)} className="space-y-4">
                 <p className="text-slate-300 leading-relaxed text-[0.95rem]">
-                  Hey — I'm <span className="text-white font-semibold">Aryan</span>, a 2nd-year BCA student
-                  who builds things for the web. I got into coding with passion in Game Development,
-                  and somewhere along the way it turned into a freelance hustle.
+                  Hey — I'm <span className="text-white font-semibold">Aryan</span> I got into coding with passion in Game Development,
+                  and somewhere along the way it turned into a Software Engineering career.
                 </p>
                 <p className="text-slate-400 leading-relaxed text-[0.95rem]">
-                  I work with clients to design and ship full-stack web apps — clean frontends, solid backends, real databases.
+                  I work with clients to design and ship full-stack web apps — clean Frontends, solid Backends, real Databases.
                   No bloat. No fluff. Just products that do what they're supposed to.
                 </p>
                 <p className="text-slate-500 leading-relaxed text-[0.95rem]">
-                  When I'm not pushing commits, I'm grinding games, tinkering with side projects, or overthinking
-                  UI details that nobody else notices. That last one comes in handy, actually.
+                  When I'm not pushing commits, I'm grinding games, tinkering with side projects, Or making music, playing Guitar and Edm House 
                 </p>
               </motion.div>
 
               {/* Stats row */}
               <div className="grid grid-cols-3 gap-4 pt-2">
-                <StatCard value="2nd" label="Year CS" delay={0.2} />
+                <StatCard value="2nd" label="Year BCA" delay={0.2} />
                 <StatCard value="4+" label="Projects" delay={0.3} />
                 <StatCard value="∞" label="Coffee" delay={0.4} />
               </div>
@@ -185,7 +183,7 @@ const About = () => {
                         <div className="font-bebas text-xl text-white tracking-wider">Full-Stack Coding Bootcamp</div>
                         <div className="nav-mono text-blue-400/70 text-xs tracking-wider mt-0.5">Intensive Training · Completed</div>
                         <p className="text-slate-500 text-sm mt-2 leading-relaxed">
-                          Went through an intensive bootcamp built around industry practices — agile workflows,
+                          Went through an intensive bootcamp  built around industry practices — agile workflows,
                           git collaboration, code reviews, API design, and shipping production-ready apps under real deadlines. Less theory, more building.
                         </p>
                       </div>
@@ -238,8 +236,36 @@ const About = () => {
                 </div>
               </motion.div>
 
+                {/* Contact badge */}
+              <motion.div {...fadeUp(0.6)}>
+                <div className="relative mt-6 p-4 bg-purple-500/5 border border-purple-500/20 rounded-xl">
+                  <HUDCorners color="border-purple-500/30" />
+                  <div className="flex items-center gap-3">
+                    <span className="relative flex h-2 w-2 flex-shrink-0">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75" />
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-400" />
+                    </span>
+                    <div>
+                      <div className="nav-mono text-purple-400 text-xs tracking-wider">Contact</div>
+                        <div className="flex flex-col">
+                        <a href="mailto:gohilaryan96@gmail.com" className="text-slate-500 text-xs mt-0.5 hover:text-purple-400 transition-colors">
+                          gohilaryan96@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/aryan-gohil-42b9b1441/" className="text-slate-500 text-xs mt-0.5 hover:text-purple-400 transition-colors">
+                          LinkedIn - Aryan Gohil
+                        </a>
+
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+
             </div>
           </div>
+          
 
           {/* Bottom divider */}
           <motion.div {...fadeUp(0.5)} className="mt-20 flex items-center gap-4">
